@@ -23,3 +23,15 @@
 	color:#FF7519;
     text-decoration: underline;
 }
+.index-title {
+    color:blue;
+}
+.index-title2 {
+    color:red;
+}
+.class2 ul li a{
+color:cyan;}
+.class2 ul li a:hover{
+color:green;
+    text-decoration:none;
+}
