@@ -1,9 +1,17 @@
 h1{
-   background-color: #33CC33;
+   color: #33CC33;
     text-decoration:underline;
 }
 p {
-	background-color:#0066CC;
+	color:#0066CC;
     padding: 20px;
- }
+}
 
+
+
+ .page-navigation1 li a{
+color:#FF0000;}
+.page-navigation1 li a:hover{
+color:green;
+    text-decoration:none;
+}
