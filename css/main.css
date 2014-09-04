@@ -1,5 +1,5 @@
-*
- * .page-navigation {
+
+  .page-navigation {
    background-color: #00A3CC;
     color:#FFF;
     height: 50px;
@@ -35,4 +35,11 @@ color:cyan;}
 .class2 ul li a:hover{
 color:green;
     text-decoration:none;
+}
+
+.base{
+    padding-top: 50px;
+    color:#FFF;
+    text-align: center;
+    font-size: 24px;
 }
