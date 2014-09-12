@@ -8,17 +8,36 @@
 	height:100px;
 	background-color:#0000ff;
 	padding:20px;
+	overflow: hidden;
 }
 
 .main-header .navigation ul {
 	list-style: none;
-	background-color: 
+	background-color: #339933;
+}
+
+.main-header .navigation ul li {
+	float: left;
+}
+
+.main-header .navigation ul li a {
+	padding: 10 15px;
+	line-height: 40px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.main-header .navigation ul li a:hover{
+	background-color: pink;
+	color: green;
+	text-decoration: underline;
 }
 
 .main-content{
-
+	min-height: 500px
 }
 
 .main-footer {
-	
+	height: 50px;
+	background-color: #0000ff
 }
