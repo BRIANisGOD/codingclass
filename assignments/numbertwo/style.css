@@ -1,14 +1,17 @@
 .container {
-  width: 960px;
+  width: 1260px;
   margin: 0 auto;
-  background-color: #05aa8b;
-  height: 900px;
+  background-color:red;
+  padding-top:10px;
+   border-radius: 15px;
 }
 
-.main-header {
+.main-header img{
+  position: absolute;
   height: 100px;
   background-color: #f8ab51;
-  padding: 20px;
+  padding: 0px;
+  top:30px;
 }
 
 .main-header .navigation {
@@ -40,10 +43,60 @@
 }
 
 .main-content {
-  min-height: 500px;
+  min-height: 600px;
 }
 
 .main-footer {
-  height: 150px;
-  background-color: #f8ab51;
+  height: 100px;
+  background-color: #45b6ea;
+  padding-top:20px;
+   border-radius: 15px;
+}
+
+.other-container {
+  background-color:#fff;
+  height:800px;
+  width:100% ;
+}
+
+.navigation ul{ 
+  list-style:none;
+  background-color: blue;
+  float:left;
+  width:100%;
+  box-sizing: border-box;
+}
+
+.navigation ul li {
+  padding: 0 25px;
+    float: left;
+    line-height: 50px;
+}
+.navigation ul li a {
+  color:#FFF;
+    text-decoration: none;
+    font-weight: bold;
+    font-size:20px;
+}
+.navigation ul li a:hover{
+  color:#FF7519;
+    text-decoration: underline;
+}
+
+.box {
+  width:180px;
+  height:280px;
+  background-color:#1975FF;
+  color:#000000;
+  border-radius: 15px;
+  position: relative;
+  left: 50px;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 5px;
+  float:left;
+}
+
+.box-1{
+  background-color: #FFF;
 }
